@@ -1,0 +1,22 @@
+sequenceDiagram
+    participant frameDOM
+    participant frame
+    participant popup
+    participant elementTableId
+    participant elementTableClass
+    alt frame DOM
+    frameDOM-->>frame: readystatechange
+    Note over frameDOM: readyState = "complete"
+    else popup
+    popup--)frame: analyzePage
+    end
+    frame--)popup: frameReadyToAnalyze
+    activate popup
+    Note over frame: elements = analyzePage()
+    Note over frame, popup: request = elements
+    rect rgba(0, 0, 255, .1)
+    popup->>elementTableId: displayElements(request.elements)
+    popup->>elementTableClass: displayElements(request.elements)
+    Note over elementTableId, elementTableClass: messageRaw <~ {_ids,_class:}
+    end
+    deactivate popup

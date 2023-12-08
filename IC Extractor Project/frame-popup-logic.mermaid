@@ -14,7 +14,7 @@ sequenceDiagram
     activate popup
     Note over frame: elements = analyzePage()
     Note over frame, popup: request = elements
-    rect rgba(0, 0, 255, .1)
+    rect rgba(0, 200, 255, .03)
     popup->>elementTableId: displayElements(request.elements)
     popup->>elementTableClass: displayElements(request.elements)
     Note over elementTableId, elementTableClass: messageRaw <~ {_ids,_class:}

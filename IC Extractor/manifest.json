@@ -1,0 +1,27 @@
+{
+  "name": "IC Extractor",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "author": "Giuseppe Ferri",
+  "description": "I(d) C(lass) Extractor: estrae e mostra in forma tabellare gli elementi della pagina associati ad id e classi.",
+  "permissions": ["tabs","activeTab"],
+  "action": {
+    "default_icon": "images/favicon.x48.png",
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "48": "images/favicon.x48.png",
+    "128": "images/favicon.x128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    },
+    {
+      "js": ["frame.js"],
+      "matches": ["<all_urls>"],
+      "all_frames":true
+    }
+  ]
+}

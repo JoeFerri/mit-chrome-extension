@@ -1,0 +1,9 @@
+html, body, table, tbody, tr, td {
+  width: 100%;
+  max-width: none;
+}
+
+body {
+  padding: 10px;
+  margin: 0 auto;
+}

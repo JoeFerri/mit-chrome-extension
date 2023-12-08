@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IC Extractor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8"/>
+    <meta name="keywords" content="Giuseppe Ferri, Joe Ferri"/>
+    <meta name="description" content="I(d) C(lass) Extractor: extracts and displays the page elements associated with id and classes in tabular form."/>
+    <meta name="author" content="Giuseppe Ferri"/>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="new_tab_style.css" />
+  </head>
+  <body id="body">
+    <h1 class="title">I(d) C(lass) Extractor</h1>
+    <p class="author">by Joe Ferri</p>
+    <hr/>
+    </br>
+    <div class="nav">
+      <button id="refresh_button" class="nav-button">Reload data</button>
+      <button id="new_tab_button" class="nav-button">Open in new tab</button>
+    </div>
+    <section id="section_ids">
+      </br>
+      <hr/>
+      <h2>Elements with id</h2>
+      <button><a href="#section_classes">Go to classes</a></button>
+      <button><a href="#body">Home</a></button>
+      <table id="elementTableId">
+        <tr class="labels-row">
+          <th>ID</th>
+          <th>VALUE</th>
+        </tr>
+      </table>
+    </section>
+    <section id="section_classes">
+      </br>
+      <hr/>
+      <h2>Elements with class</h2>
+      <button><a href="#section_ids">Go to ids</a></button>
+      <button><a href="#body">Home</a></button>
+      <table id="elementTableClass">
+        <tr class="labels-row">
+          <th>CLASS</th>
+          <th>VALUE</th>
+        </tr>
+      </table>
+    </section>
+    <script src="new_tab_script.js"></script>
+  </body>
+</html>

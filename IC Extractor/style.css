@@ -1,0 +1,80 @@
+html {
+  max-width: 799px;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: "Segoe UI", Tahoma, sans-serif; */
+  /* font-size: 75%; */
+  font-family:'Courier New', Courier, monospace; /* TODO: non viene usato */
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+table {
+  border-collapse: collapse;
+  padding: 10px;
+  margin: 20px auto 0 auto;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+body, table, tbody {
+  width: 770px;
+  max-width: 770px;
+}
+
+tr {
+  width: 760px;
+  max-width: 760px;
+}
+
+td {
+  overflow: visible;
+  overflow-wrap: break-word;
+}
+
+td:first-child {
+  width: 200px;
+  max-width: 200px;
+}
+
+td:not(td:first-child) {
+  width: 560px;
+  max-width: 560px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.nav-button {
+  margin: 0 10px;
+}
+
+h1.title, .author {
+  text-align: center;
+}
+
+.author {
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+h1.title {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}

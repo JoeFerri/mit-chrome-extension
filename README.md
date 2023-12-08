@@ -15,7 +15,7 @@ For the documentation see the notes inside the source code or [wiki page](https:
 
 # License 
 
-## General license 
+## MIT license 
 
 Copyright (c) 2023 Giuseppe Ferri
 

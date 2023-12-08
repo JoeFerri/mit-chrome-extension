@@ -55,4 +55,12 @@ Follow the instructions at these links:
 
 ## LOGIC: frame.js <--> popup.js
 
+Once the **popup** page loads, it sends an **analyzePage** message to the current tab via the Chrome API.
+
+The message is received by all **frames** on the **main page**.
+
+Each **frame**, either after its DOM is fully loaded, or after receiving the `analyzePage` message, sends its element data within a `frameReadyToAnalyze` message to the popup.
+
+The diagram below shows the logic of a single **frame**.
+
 [![](https://mermaid.ink/img/pako:eNqNU8lu2zAQ_RViTjZACZJlLSFaA0XTQw9piySnQkAwESeOUG0lqbSK4Xx7qS21nTQoDwJFvjfvzcIdZLUkEKDpZ0tVRuc5bhWWacXsalCZPMsbrAy7s6d0_vXiHzcvj5u6aZuXx1RQSZW5xtuCPsu37z8WqPUIwWISYs8eZkeOs9kMe8EUoey0QUPZPVbbydWX2hCrH0g9UybkVY9k71lqq1A2BRlKYaRQoekog37rOMtJByssukf6hrMEVfLAlAUOBDH-XvZa1_WHkTTlk5n8oVc_EDnxKeZaaGvxQHGxfBXO2aSp-lZqY0kzf8QrygxT21tceJytvP4Thpy5XrA8THKzOW6RYDLXTYHdpynaYhJw5_Bv0IcO_neEvxkdW-DslZglaW2rcYm_2LsntrvJpeY32XC3P2mKpNNyA4eSVIm5tLO_61EpmHurkYKwW4nqRz8Ke4vD1tRXXZWBMKolDm0jbaDpnYC4QzsqHOzsgtjBbxB-7LmJ50Xrs9hPvNBfcehAOH7orqLEj5JgHcVRHCfxnsNjXdsQvut7_VqFXhCchUGw5kAyN7W6GB_n8EYHje8DYdDc_wH2dT85?type=png)](https://mermaid.live/edit#pako:eNqNU8lu2zAQ_RViTjZACZJlLSFaA0XTQw9piySnQkAwESeOUG0lqbSK4Xx7qS21nTQoDwJFvjfvzcIdZLUkEKDpZ0tVRuc5bhWWacXsalCZPMsbrAy7s6d0_vXiHzcvj5u6aZuXx1RQSZW5xtuCPsu37z8WqPUIwWISYs8eZkeOs9kMe8EUoey0QUPZPVbbydWX2hCrH0g9UybkVY9k71lqq1A2BRlKYaRQoekog37rOMtJByssukf6hrMEVfLAlAUOBDH-XvZa1_WHkTTlk5n8oVc_EDnxKeZaaGvxQHGxfBXO2aSp-lZqY0kzf8QrygxT21tceJytvP4Thpy5XrA8THKzOW6RYDLXTYHdpynaYhJw5_Bv0IcO_neEvxkdW-DslZglaW2rcYm_2LsntrvJpeY32XC3P2mKpNNyA4eSVIm5tLO_61EpmHurkYKwW4nqRz8Ke4vD1tRXXZWBMKolDm0jbaDpnYC4QzsqHOzsgtjBbxB-7LmJ50Xrs9hPvNBfcehAOH7orqLEj5JgHcVRHCfxnsNjXdsQvut7_VqFXhCchUGw5kAyN7W6GB_n8EYHje8DYdDc_wH2dT85)

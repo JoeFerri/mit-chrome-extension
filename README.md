@@ -11,23 +11,23 @@ Download the **extension folder** to your PC.
 
 1. Click on the menu at the top right (the three vertical dots).
 
-menu-top-right-pin-extension.png
+![](images/menu-top-right-pin-extension.png)
 
 2. Move the cursor to **Extensions**, then click on **Manage Extensions**.
 
-menu-top-right-extension.png
+![](images/menu-top-right-extension.png)
 
 3. Click **Developer Mode** if it is not enabled.
 
-button-developer-mode.png
+![](images/button-developer-mode.png)
 
 4. Click **Load Unpackaged Extension** and select the **IC Extractor** folder you downloaded.
 
-buttons-load-extension.png
+![](images/buttons-load-extension.png)
 
 5. Now the extension is active on your Chrome browser, you can pin it in the top bar by clicking on the puzzle icon.
 
-menu-top-right-pin-extension.png
+![](images/menu-top-right-pin-extension.png)
 
 For more information on how to create a Chrome extension follow the instructions at these links:
 

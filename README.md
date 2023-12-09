@@ -9,7 +9,9 @@ Extensions for Chrome. #extension #chrome
 
 ## Extensions List
 
-[IC Extension](IC%20Extractor%20Project/README.md)
+[IC Extension](IC%20Extractor%20Project/README.md) Extracts and displays the page elements associated with id and classes in tabular form.
+
+
 
 ---
 

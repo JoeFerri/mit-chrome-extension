@@ -5,6 +5,40 @@
 # mit-chrome-extension
 Extensions for Chrome. #extension #chrome
 
+## Installation
+
+Download the **extension folder** to your PC.
+
+1. Click on the menu at the top right (the three vertical dots).
+
+menu-top-right-pin-extension.png
+
+2. Move the cursor to **Extensions**, then click on **Manage Extensions**.
+
+menu-top-right-extension.png
+
+3. Click **Developer Mode** if it is not enabled.
+
+button-developer-mode.png
+
+4. Click **Load Unpackaged Extension** and select the **IC Extractor** folder you downloaded.
+
+buttons-load-extension.png
+
+5. Now the extension is active on your Chrome browser, you can pin it in the top bar by clicking on the puzzle icon.
+
+menu-top-right-pin-extension.png
+
+For more information on how to create a Chrome extension follow the instructions at these links:
+
+[support.google.com - English](https://support.google.com/chrome/a/answer/2714278?hl=en)
+
+[support.google.com - Italian](https://support.google.com/chrome/a/answer/2714278?hl=it)
+
+[freecodecamp.org - English](https://www.freecodecamp.org/news/building-chrome-extension/)
+
+[freecodecamp.org - Italian](https://www.freecodecamp.org/italian/news/come-creare-la-tua-estensione-di-google-chrome/)
+
 ## Documentation
 For the documentation see the notes inside the source code or [wiki page](https://github.com/JoeFerri/mit-chrome-extension/wiki)
 

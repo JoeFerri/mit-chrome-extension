@@ -2,6 +2,8 @@
 
 **Extracts and displays the page elements associated with id and classes in tabular form.**
 
+info-extension-IC_Extractor.png
+
 ---
 
 ## Description
@@ -30,15 +32,7 @@ Do you want the tables in a full-size tab? You can do it.
 
 Download the **IC Extractor** folder to your PC.
 
-Follow the instructions at these links:
-
-[support.google.com - English](https://support.google.com/chrome/a/answer/2714278?hl=en)
-
-[support.google.com - Italian](https://support.google.com/chrome/a/answer/2714278?hl=it)
-
-[freecodecamp.org - English](https://www.freecodecamp.org/news/building-chrome-extension/)
-
-[freecodecamp.org - Italian](https://www.freecodecamp.org/italian/news/come-creare-la-tua-estensione-di-google-chrome/)
+Follow the instructions at [Mit Chrome Extension](https://github.com/JoeFerri/mit-chrome-extension)
 
 ---
 

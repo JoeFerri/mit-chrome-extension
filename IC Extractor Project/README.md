@@ -3,6 +3,7 @@
 **Extracts and displays the page elements associated with id and classes in tabular form.**
 
 ![](images/info-extension-IC_Extractor.png)
+![](images/example-IC_Extractor.png)
 
 ---
 

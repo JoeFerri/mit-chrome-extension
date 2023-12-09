@@ -5,6 +5,14 @@
 # mit-chrome-extension
 Extensions for Chrome. #extension #chrome
 
+---
+
+## Extensions List
+
+[IC Extension](IC%20Extractor%20Project/README.md)
+
+---
+
 ## Installation
 
 Download the **extension folder** to your PC.
@@ -39,13 +47,19 @@ For more information on how to create a Chrome extension follow the instructions
 
 [freecodecamp.org - Italian](https://www.freecodecamp.org/italian/news/come-creare-la-tua-estensione-di-google-chrome/)
 
+---
+
 ## Documentation
 For the documentation see the notes inside the source code or [wiki page](https://github.com/JoeFerri/mit-chrome-extension/wiki)
+
+---
 
 ### Code of conduct
 [ENG](code_of_conduct-eng.md)
 
 [ITA](code_of_conduct-ita.md)
+
+---
 
 # License 
 

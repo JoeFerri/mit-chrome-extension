@@ -32,9 +32,9 @@ Download the **IC Extractor** folder to your PC.
 
 Follow the instructions at these links:
 
-[support.google.com - English](https://support.google.com/chrome/a/answer/2714278?hl=it)
+[support.google.com - English](https://support.google.com/chrome/a/answer/2714278?hl=en)
 
-[support.google.com - Italian](https://support.google.com/chrome/a/answer/2714278?hl=en)
+[support.google.com - Italian](https://support.google.com/chrome/a/answer/2714278?hl=it)
 
 [freecodecamp.org - English](https://www.freecodecamp.org/news/building-chrome-extension/)
 

@@ -38,7 +38,7 @@ Follow the instructions at these links:
 
 [freecodecamp.org - English](https://www.freecodecamp.org/news/building-chrome-extension/)
 
-[freecodecamp.org - Italian](https://www.freecodecamp.org/italian/news/come-create-your-extension-of-google-chrome/)
+[freecodecamp.org - Italian](https://www.freecodecamp.org/italian/news/come-creare-la-tua-estensione-di-google-chrome/)
 
 ---
 

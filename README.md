@@ -11,7 +11,7 @@ Download the **extension folder** to your PC.
 
 1. Click on the menu at the top right (the three vertical dots).
 
-![](images/menu-top-right-pin-extension.png)
+![](images/menu-top-right.png)
 
 2. Move the cursor to **Extensions**, then click on **Manage Extensions**.
 

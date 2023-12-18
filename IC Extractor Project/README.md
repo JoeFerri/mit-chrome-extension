@@ -21,7 +21,7 @@ Do you want the tables in a full-size tab? You can do it.
 
 ---
 
-## Futures
+## Future Features
 
 - export button in **JSON** format
 - export button in **CVS** format
